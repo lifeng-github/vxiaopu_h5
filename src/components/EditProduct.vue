@@ -57,6 +57,14 @@
                       <img src="../assets/res/img/qrcode.png" alt="">
                     </div>
                 </router-link>
+                <router-link  class="weui-cell weui-cell_access" to="ShopPayQrcode" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>支付二维码</p>
+                    </div>
+                    <div class="weui-cell__ft" id="qrcode-wrap">
+                      <img src="../assets/res/img/qrcode.png" alt="">
+                    </div>
+                </router-link>
             </div>
             <div class="weui-cells">
                 <!--小铺名称-->

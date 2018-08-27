@@ -13,6 +13,7 @@ import ShopIndex from '@/components/ShopIndex'
 import BuildIndex from '@/components/BuildIndex'
 import EditProductItem from '@/components/EditProductItem'
 import ShopQrcode from '@/components/ShopQrcode'
+import ShopPayQrcode from '@/components/ShopPayQrcode'
 import AddBarberByQrcode from '@/components/AddBarberByQrcode'
 
 Vue.use(Router)
@@ -83,6 +84,11 @@ export default new Router({
       path: '/ShopQrcode',
       name: 'ShopQrcode',
       component: ShopQrcode
+    },
+    {
+      path: '/ShopPayQrcode',
+      name: 'ShopPayQrcode',
+      component: ShopPayQrcode
     },
     {
       path: '/AddBarberByQrcode',

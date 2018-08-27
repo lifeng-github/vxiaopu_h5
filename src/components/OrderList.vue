@@ -27,7 +27,7 @@
                   </div>
               </div>
               <div class="weui-form-preview__ft">
-                  <a class="weui-btn weui-btn_primary " @click="dealOrder(item.orderno, item.mobile, index)" v-if="item.status == 0 || item.status == 1 || item.status == 2" href="javascript:" id="">通知Ta到店</a>
+                  <a class="weui-btn weui-btn_primary " @click="dealOrder(item.orderno, item.mobile, index)" v-if="item.status == 0 || item.status == 2" href="javascript:" id="">通知Ta到店</a>
                   <a class="weui-btn weui-btn_primary weui-btn_disabled" v-else href="javascript:" id="">已通知</a>
               </div>
           </div>
